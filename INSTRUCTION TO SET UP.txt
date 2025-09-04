@@ -1,0 +1,16 @@
+INSTRUCTION TO SET UP / RUN THE APPLICATION
+
+1. Download the project folder
+2. Connect real/virtual device to your computer
+3. Make sure the device is connected and ready to be the target device to run the project
+4. From the project root folder enter "flutter run" command, and select the target device (usually it's auto select to your real device as a target)
+
+How to make sure the device is ready?
+For Android:
+1. Make sure the Allow USB Debugging from Developer Options is on
+2. Make sure the device is allowed file transfer from your computer
+3. Make sure the device is available on the list with command "flutter devices"
+
+NOTE:
+1. I don't do any testing on iOS device because of the limited time, so I only create the project with my Android device with Android 15 version (API 35), so it's recommended to test it on the same version of OS and device.
+2. The instruction is to run from the code, you can also find the apk directly on the root project folder if you prefer to install the apk to the device to test
